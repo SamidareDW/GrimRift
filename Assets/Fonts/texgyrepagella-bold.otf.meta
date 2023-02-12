@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ca603a83a161a3045ae4e2a82cfe47d4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - TeX Gyre Pagella
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 464530071be85f043b1ad1948d76fdc8, type: 3}
+  - {fileID: 12800000, guid: f096b23720fa5154f951b228d587eae6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

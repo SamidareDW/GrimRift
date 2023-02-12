@@ -1,0 +1,1908 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pl' Physical Memory: 16064 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Dawid/Documents/Unity Projects/TheGrimRift
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55873
+Successfully changed project path to: C:/Users/Dawid/Documents/Unity Projects/TheGrimRift
+C:/Users/Dawid/Documents/Unity Projects/TheGrimRift
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dawid/Documents/Unity Projects/TheGrimRift/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8032 MB
+    Driver:   31.0.101.3358
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006481 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1621ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1278ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (59.9 KB). Loaded Objects now: 3773.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 4.737300 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.119700 ms MarkObjects: 4.233400 ms  DeleteObjects: 0.087400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3326.136360 seconds.
+  path: Assets/353799__monte32__footsteps-6-dirt-shoe.wav
+  artifactKey: Guid(288e71d3ab5c3df4abee988cbf7a20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/353799__monte32__footsteps-6-dirt-shoe.wav using Guid(288e71d3ab5c3df4abee988cbf7a20f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a9a1769afa97c150f8896579736d81') in 0.231680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.035904 seconds.
+  path: Assets/Prefabs/BlueShard.prefab
+  artifactKey: Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueShard.prefab using Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6401a8570a113f159727ecbd85eb0faa') in 0.079610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/Wall 3.prefab
+  artifactKey: Guid(2b77b72e237fbbc42970e39b5045e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall 3.prefab using Guid(2b77b72e237fbbc42970e39b5045e80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd91fb357a99e7b237bf033fa03cc3b6') in 0.014888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/MenuCanvas 2.prefab
+  artifactKey: Guid(4fe1e1bb2988af54b922cad09eda1d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuCanvas 2.prefab using Guid(4fe1e1bb2988af54b922cad09eda1d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3d58857effe87e836f55d72a796d6c') in 0.023664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Room.prefab
+  artifactKey: Guid(2aec924d5bdee4b46aba160b8409348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room.prefab using Guid(2aec924d5bdee4b46aba160b8409348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915202fe99740964731498ecf4169fe0') in 0.018304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/room5_backup.prefab
+  artifactKey: Guid(0376ad39e0867164b9f73c62454bab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/room5_backup.prefab using Guid(0376ad39e0867164b9f73c62454bab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64d24dc3224a1b89b603445ecd56bd3') in 0.059193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Crystal_purple.prefab
+  artifactKey: Guid(b0ef79009de7351438f922c399db643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystal_purple.prefab using Guid(b0ef79009de7351438f922c399db643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bb808ba2517e3ce29e6efafc8984b3') in 0.018618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefabs/MenuCanvas 1.prefab
+  artifactKey: Guid(97e60c29af002d4409b8994912efe563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuCanvas 1.prefab using Guid(97e60c29af002d4409b8994912efe563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f022fc6c54f321510c25f553242802') in 0.013157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/PurpleShard.prefab
+  artifactKey: Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PurpleShard.prefab using Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c873b7de7e4c430df28f44971a24bb6') in 0.021817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Wall 2.prefab
+  artifactKey: Guid(ed78d99cba89c9e4a875d0dba29e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall 2.prefab using Guid(ed78d99cba89c9e4a875d0dba29e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c04a731d416371d3b72a832ff96d731') in 0.016110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Crystal_yellow.prefab
+  artifactKey: Guid(1c69a98fc9397d145941b10e82a5de64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystal_yellow.prefab using Guid(1c69a98fc9397d145941b10e82a5de64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee54b36cc82b5e5981d94b2d676fa7b') in 0.016292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Prefabs/IAmPickaxe 1.prefab
+  artifactKey: Guid(fde4dd9c3053a0e469495ba31dafb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/IAmPickaxe 1.prefab using Guid(fde4dd9c3053a0e469495ba31dafb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662d3f996ecfe2a7cbe4304021766062') in 0.017421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/EventSystem.prefab
+  artifactKey: Guid(05a5b69517950e5409593351d6927eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EventSystem.prefab using Guid(05a5b69517950e5409593351d6927eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230d7ae1c32ee6de5aeffcd6cede6810') in 0.016708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/MenuCanvas.prefab
+  artifactKey: Guid(7d25562ec80182f4ab489239938b986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuCanvas.prefab using Guid(7d25562ec80182f4ab489239938b986a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d1abdfa1cbe3f5649075f9b2b1ed02') in 0.018163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/Pedestal.prefab
+  artifactKey: Guid(00a64718a8af67f4a95f32bb92970205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pedestal.prefab using Guid(00a64718a8af67f4a95f32bb92970205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8148fb8d5d1fc9b6cd7a431c13abf37c') in 0.417405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(5cbc06c0a3339f24d8ccf6b4c35b74c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(5cbc06c0a3339f24d8ccf6b4c35b74c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c769dbc62dc01a6fc80b899ad7eec8b1') in 0.017176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Stamina.prefab
+  artifactKey: Guid(29c8e908c49dd1549ad8802be3557cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Stamina.prefab using Guid(29c8e908c49dd1549ad8802be3557cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90920870fbd7f9542e1407a76431e498') in 0.016906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Wall 4.prefab
+  artifactKey: Guid(0dfb117f00c94b043978f04a68eda37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall 4.prefab using Guid(0dfb117f00c94b043978f04a68eda37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff0a7c8489e300dfc11401d53ba2522') in 0.013501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/room5_backup2.prefab
+  artifactKey: Guid(54fd7770c08c2bb4b80bc828a374e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/room5_backup2.prefab using Guid(54fd7770c08c2bb4b80bc828a374e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e92a88ab364f0f0ba767e0f4ec810ef') in 0.037418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/IAmPickaxe.prefab
+  artifactKey: Guid(7ab53bbfeacd8fe499fcef2b03decd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/IAmPickaxe.prefab using Guid(7ab53bbfeacd8fe499fcef2b03decd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dd18f3dc9df14b6236bcdb5ef69801') in 0.022690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(593aa28b05a7e6344b5ab43a6d63f811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(593aa28b05a7e6344b5ab43a6d63f811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff3f28b6d4d344eb8cb096524b4c3d5') in 0.028443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/LoadingCanvas.prefab
+  artifactKey: Guid(cf09d7994a35bf1458644daa4115bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LoadingCanvas.prefab using Guid(cf09d7994a35bf1458644daa4115bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6333235c384c2e0852923da0700daa72') in 0.012935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Wall 1.prefab
+  artifactKey: Guid(40f9f672c7173c14ba57df8716356f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wall 1.prefab using Guid(40f9f672c7173c14ba57df8716356f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b393c75af6f2d517d7c35a57d4071026') in 0.012199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Prefabs/Portal_postument.prefab
+  artifactKey: Guid(fb6f607465f07eb48af7ba8b383b7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal_postument.prefab using Guid(fb6f607465f07eb48af7ba8b383b7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3315a6f82d635e5ef1fa4d1394919457') in 0.093396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefabs/Portal 1.prefab
+  artifactKey: Guid(ff07531ca665cda4f936bc87d31986dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal 1.prefab using Guid(ff07531ca665cda4f936bc87d31986dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648a30ac7bc1b8af27fec4c7d6298f73') in 0.024484 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 207.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:153)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:29)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 153)
+
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:29)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.OnEnable () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:29 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:29)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.OnEnable () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:29 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2526ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2015ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1080ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (207ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (683ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Shader 'HDRP/Unlit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/LitTessellation': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/LayeredLit': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/AxF': fallback shader 'Hidden/HDRP/FallbackError' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 239 unused Assets / (19.8 MB). Loaded Objects now: 6333.
+Memory consumption went from 264.3 MB to 244.6 MB.
+Total: 12.107800 ms (FindLiveObjects: 0.464200 ms CreateObjectMapping: 0.276400 ms MarkObjects: 3.635100 ms  DeleteObjects: 7.730800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.831311 seconds.
+  path: Assets/Prefabs/BlueShard.prefab
+  artifactKey: Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueShard.prefab using Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: 'cfe2cd356f1970840575a1ccbe56ae64') in 0.260454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Crystal_purple.prefab
+  artifactKey: Guid(b0ef79009de7351438f922c399db643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystal_purple.prefab using Guid(b0ef79009de7351438f922c399db643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '6a49b07910910d94e90b39e99d4bbc5f') in 0.023332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Prefabs/PurpleShard.prefab
+  artifactKey: Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PurpleShard.prefab using Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '35ad646f057ecf1542c19ef788b04d9b') in 0.036389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/CrystalYellow.prefab
+  artifactKey: Guid(d1acfb8f5abf9174d8c1f7f7cbf6be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CrystalYellow.prefab using Guid(d1acfb8f5abf9174d8c1f7f7cbf6be7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: 'fc8df037706ea3e8cdb707a35d11054c') in 0.034417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/room5.prefab
+  artifactKey: Guid(33f17d9017d4e8c429907dd5c26a8473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/room5.prefab using Guid(33f17d9017d4e8c429907dd5c26a8473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: 'e35f5fb12fda2bacf76edb541cbd7159') in 0.055233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(593aa28b05a7e6344b5ab43a6d63f811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(593aa28b05a7e6344b5ab43a6d63f811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '6422448534e42d2729c4e2970a56eb52') in 0.025432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/CrystalPurple01 (4).prefab
+  artifactKey: Guid(a035f25a7cfa5454090cefd659cd6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CrystalPurple01 (4).prefab using Guid(a035f25a7cfa5454090cefd659cd6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: 'dee23e048baab594a00d7599b275054e') in 0.045962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 312.721773 seconds.
+  path: Assets/Prefabs/BlueShard.prefab
+  artifactKey: Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueShard.prefab using Guid(1f970477b82e1244ea39de81b7b1f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '1fc8325c8c01433eccfae85421676a19') in 0.041919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/PurpleShard.prefab
+  artifactKey: Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PurpleShard.prefab using Guid(50e62eb442c6c3e4cb640562c2835799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '936b9fa46d34513f695d9f64e91394e5') in 0.031083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Prefabs/YellowShard.prefab
+  artifactKey: Guid(c6408385156234b4dba372bc512d393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/YellowShard.prefab using Guid(c6408385156234b4dba372bc512d393f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '71b647e7d6164501a7a4edd2f5cfca87') in 0.039178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/CrystalPurple01 (4).prefab
+  artifactKey: Guid(a035f25a7cfa5454090cefd659cd6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CrystalPurple01 (4).prefab using Guid(a035f25a7cfa5454090cefd659cd6dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Create (string,UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:141)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.Migration.cs:72)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:175)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/Core/Migration/MigrationDescription.cs:111)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:344)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:334)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings:Ensure (bool) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs:80)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipeline.cs:268)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:49)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs line 141]
+
+UnityException: Creating asset at path Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings 1.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Create (System.String path, UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings dataSource) [0x00022] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:141 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.MigrateFromHDRPAsset (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset oldAsset) [0x0003f] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.Migration.cs:72 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset+<>c.<.cctor>b__98_15 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset data) [0x0000d] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:175 
+  at UnityEngine.Rendering.HighDefinition.MigrationStep`2[TVersion,TTarget].Migrate (TTarget target) [0x00028] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationStep.cs:52 
+  at UnityEngine.Rendering.HighDefinition.MigrationDescription`2[TVersion,TTarget].Migrate (TTarget target) [0x0005c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\Core\Migration\MigrationDescription.cs:111 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:344 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.UnityEngine.Rendering.HighDefinition.IMigratableAsset.Migrate () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.Migration.cs:334 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings.Ensure (System.Boolean canCreateNewAsset) [0x0003c] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineGlobalSettings.cs:80 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipeline..ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset asset) [0x004fc] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipeline.cs:268 
+  at UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset.CreatePipeline () [0x00000] in C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.render-pipelines.high-definition@12.1.8\Runtime\RenderPipeline\HDRenderPipelineAsset.cs:49 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <bae255e3e08e46f7bc2fbd23dde96338>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.8/Runtime/RenderPipeline/HDRenderPipelineGlobalSettings.cs Line: 141)
+
+ -> (artifact id: '1086ba1976a23c168da5055877b1ae79') in 0.047820 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2189ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1749ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (585ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (8.0 MB). Loaded Objects now: 6633.
+Memory consumption went from 281.2 MB to 273.1 MB.
+Total: 7.562000 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.230100 ms MarkObjects: 3.217500 ms  DeleteObjects: 3.760200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.217522 seconds.
+  path: Assets/Scenes/Test Level/SH/Global Volume Profile.asset
+  artifactKey: Guid(9b94ae2362ed7dd4dad7b5c83666ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level/SH/Global Volume Profile.asset using Guid(9b94ae2362ed7dd4dad7b5c83666ce60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b04086f6719098864ef6b6341aa245') in 0.044542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/Test Level/SH/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(419da1af21b450248a793e5647b82f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level/SH/Sky and Fog Settings Profile.asset using Guid(419da1af21b450248a793e5647b82f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9879ac21ca4caf4f1a2ac32c4e4e05ed') in 0.015776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.073773 seconds.
+  path: Assets/Scenes/Test Level/Global Volume Profile.asset
+  artifactKey: Guid(d5a7030033897644186d62b48239aa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level/Global Volume Profile.asset using Guid(d5a7030033897644186d62b48239aa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5114df869959db6a2c76c82711903d85') in 0.004808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Test Level/NavMesh.asset
+  artifactKey: Guid(357cd7b4926173e49b9eb14ad845d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level/NavMesh.asset using Guid(357cd7b4926173e49b9eb14ad845d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b3e022a43c46023dcbcc43f5575824') in 0.008484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Test Level/Post-process Volume Profile.asset
+  artifactKey: Guid(60397498f36e5ad4e94aa3a113ace010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level/Post-process Volume Profile.asset using Guid(60397498f36e5ad4e94aa3a113ace010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0d38bb731d1c71d3f4fd5546f78c4e') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812321 seconds.
+  path: Assets/Scenes/Density Volume.prefab
+  artifactKey: Guid(4321ac7a96957be47a7e101ec08e2a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Density Volume.prefab using Guid(4321ac7a96957be47a7e101ec08e2a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51daac94b18b6ce149df0696a6fe1612') in 0.054205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.595454 seconds.
+  path: Assets/Scenes/Test Level.unity
+  artifactKey: Guid(a94fe48f5ecdb7145a92bf6d127f2d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test Level.unity using Guid(a94fe48f5ecdb7145a92bf6d127f2d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2746a8525531f4efe413a73dd52d5b') in 0.009706 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020498 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2211ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1802ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (882ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (618ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (81ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6636.
+Memory consumption went from 268.3 MB to 260.2 MB.
+Total: 12.176400 ms (FindLiveObjects: 0.741400 ms CreateObjectMapping: 0.656100 ms MarkObjects: 4.785800 ms  DeleteObjects: 5.989800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.319 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2320ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (83ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6639.
+Memory consumption went from 268.3 MB to 260.2 MB.
+Total: 11.826900 ms (FindLiveObjects: 0.891200 ms CreateObjectMapping: 0.363700 ms MarkObjects: 5.916100 ms  DeleteObjects: 4.654200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532.963094 seconds.
+  path: Assets/Textures/Crystal_001_NORM.jpg
+  artifactKey: Guid(148210edc2e484a4fb63e5de0337f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_001_NORM.jpg using Guid(148210edc2e484a4fb63e5de0337f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e10c609518a5d621239e6780479b8b2') in 0.340898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 401.030401 seconds.
+  path: Assets/Textures/alpha.png
+  artifactKey: Guid(c799fb2d8ba244f468536f15381b258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/alpha.png using Guid(c799fb2d8ba244f468536f15381b258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237c5ac8e86f194625f0dff2a2571888') in 0.179003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Stone Path 002_Normal.jpg
+  artifactKey: Guid(03aaf61a14b4d2941bd0b259726e954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone Path 002_Normal.jpg using Guid(03aaf61a14b4d2941bd0b259726e954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03c09931a1550973144c53399e72b39') in 0.028088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Textures/runico.png
+  artifactKey: Guid(22f290c52cefbdd449b000eb33dc64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/runico.png using Guid(22f290c52cefbdd449b000eb33dc64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9067a0dc275f7789ac2f33f1da2ede00') in 0.070167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Cliff_Rock_002_baseColor.jpg
+  artifactKey: Guid(530ff10a961f0284395fe9018f547abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_baseColor.jpg using Guid(530ff10a961f0284395fe9018f547abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ece17c29cfd38b8034de7b26d4fe7d') in 0.025515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Textures/Stone_Column_001_basecolor.jpg
+  artifactKey: Guid(aebd8038a7c203c4ea840379ed3e6ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone_Column_001_basecolor.jpg using Guid(aebd8038a7c203c4ea840379ed3e6ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3136870cd01afe2c28de3778393902fa') in 0.015545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Stone Path 002_Displacement.png
+  artifactKey: Guid(c7304ceff1aa4c44e8c44ff571a18422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone Path 002_Displacement.png using Guid(c7304ceff1aa4c44e8c44ff571a18422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c999ed3eedb480f01b639949f60a274') in 0.051746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Crystal_002_COLOR.jpg
+  artifactKey: Guid(653780277ebd17846ae56cbfff4e5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_002_COLOR.jpg using Guid(653780277ebd17846ae56cbfff4e5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42caa9b309e137da71a2df3cc4cc3d29') in 0.052080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Granite_002_COLOR_COLOR.jpg
+  artifactKey: Guid(4e9a9e3a293ba2e4ebe57084a00b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_COLOR.jpg using Guid(4e9a9e3a293ba2e4ebe57084a00b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fe394500263273988d8d766828656b') in 0.068665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Cliff_Rock_002_normal.jpg
+  artifactKey: Guid(fe479af60dc2f6a4fb41b6e00c8ec9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_normal.jpg using Guid(fe479af60dc2f6a4fb41b6e00c8ec9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8f538aa6c02c0ed6cedab6cbed9b1') in 0.056497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/grimrift.png
+  artifactKey: Guid(0b1091e0b716c214fb6b4004ba8bebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/grimrift.png using Guid(0b1091e0b716c214fb6b4004ba8bebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bcde5a9acb90f4be9eca14a61cda0c') in 0.119581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Granite_002_COLOR_ROUGH.jpg
+  artifactKey: Guid(aa07bae2118520645b1db9e939a355ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_ROUGH.jpg using Guid(aa07bae2118520645b1db9e939a355ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3656b76c32cce158807196df450ce252') in 0.067434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/webtex-nm.tga
+  artifactKey: Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/webtex-nm.tga using Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f096470bb440b7845de7e78c14a0c0c') in 0.032499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures/Cliff_Rock_002_height.png
+  artifactKey: Guid(5250c79176532254e948d3e257c37b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_height.png using Guid(5250c79176532254e948d3e257c37b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ad859ae6c2889d18306da5ac58ec8b') in 0.018049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Textures/Stone Path 002_AO.jpg
+  artifactKey: Guid(a3934e55d6b0dd64c8d76fcb2c5a0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone Path 002_AO.jpg using Guid(a3934e55d6b0dd64c8d76fcb2c5a0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44a4a80e90750d770180ff41a13a9a5') in 0.056190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Stone_Column_001_ambientOcclusion.jpg
+  artifactKey: Guid(b557abecd57709648afa27e086fe968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone_Column_001_ambientOcclusion.jpg using Guid(b557abecd57709648afa27e086fe968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bcc1ab9b1d0a8769ba362f1a262d29') in 0.029010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/target.png
+  artifactKey: Guid(61a3929bb3e56364da5597681ec40093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/target.png using Guid(61a3929bb3e56364da5597681ec40093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b497f8e0027477adc64948b81d2652') in 0.017905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/sparkle.png
+  artifactKey: Guid(08282d2cbbae8254a89eea15045703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sparkle.png using Guid(08282d2cbbae8254a89eea15045703d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea47720a71711d748037ddf68fba6859') in 0.058487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/wildtextures-old-paper-texture-3.jpg
+  artifactKey: Guid(d30ea0e53564b71499277e69b412b3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/wildtextures-old-paper-texture-3.jpg using Guid(d30ea0e53564b71499277e69b412b3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86439ec1930042e14c4ce8162dce61f') in 0.434965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Cliff_Rock_002_ambientOcclusion.jpg
+  artifactKey: Guid(1ba7b943225c62c4ab38d9e066922e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_ambientOcclusion.jpg using Guid(1ba7b943225c62c4ab38d9e066922e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a57ecf851fe60044490d1f7633f412') in 0.029894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Textures/Crystal_003_COLOR.jpg
+  artifactKey: Guid(f33dd753a8ffa17438f700ce5c1b4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_003_COLOR.jpg using Guid(f33dd753a8ffa17438f700ce5c1b4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5284426a3410b3877582b0018c30b8') in 0.028699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Textures/webtex.jpg.tga
+  artifactKey: Guid(096f31d8df7eefe46a17b2975bee7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/webtex.jpg.tga using Guid(096f31d8df7eefe46a17b2975bee7236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6967e2a81e1144c6e8d2f35f9d429305') in 0.023481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Textures/background_menu.png
+  artifactKey: Guid(a8c90dcf9e38eed4a964313238c808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/background_menu.png using Guid(a8c90dcf9e38eed4a964313238c808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f720cb33b4ad480a793e14c67a3b3e19') in 0.248661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/Stone Path 002_Albedo.jpg
+  artifactKey: Guid(f66b45e13a524dd46beffaa245d74e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone Path 002_Albedo.jpg using Guid(f66b45e13a524dd46beffaa245d74e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14db40396db808652be01156c9e46ef4') in 0.027970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Textures/target.psd
+  artifactKey: Guid(d57abfc27faf8d1419a57b76e4ecf502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/target.psd using Guid(d57abfc27faf8d1419a57b76e4ecf502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa8959ba5ff16b8a635710802bbb575') in 0.045744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Textures/staminabar.png
+  artifactKey: Guid(5ebc22f59e3d4e942a14a1f6b54551ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/staminabar.png using Guid(5ebc22f59e3d4e942a14a1f6b54551ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6347dd03539c22f2e6aeeb5a1f460a0') in 0.065170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/Stone_Column_001_normal.jpg
+  artifactKey: Guid(9f440efeb4b914d439171243fe85e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone_Column_001_normal.jpg using Guid(9f440efeb4b914d439171243fe85e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03231a35dd15b8a602c0d95f7b5fc44b') in 0.031922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Textures/Crystal_001_COLOR — kopia.jpg
+  artifactKey: Guid(2d83960e355ba764d9402ced03f864e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_001_COLOR — kopia.jpg using Guid(2d83960e355ba764d9402ced03f864e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632b95787a6a87c5c97157e387d2eb4d') in 0.025591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Textures/Granite_002_COLOR_DISP.png
+  artifactKey: Guid(6071bfeba766c8b4da3bcd76c1ae5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_DISP.png using Guid(6071bfeba766c8b4da3bcd76c1ae5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442684d2e4adb0a0972b12ed01a5ed76') in 0.071426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Torch_Fire.tga
+  artifactKey: Guid(fef6b65fb93853d4e80fea726079a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Torch_Fire.tga using Guid(fef6b65fb93853d4e80fea726079a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76ccecd4ab912e6ed7ea3a4c399c881') in 0.023695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Textures/Granite_002_COLOR_NORM.jpg
+  artifactKey: Guid(bf72cd754de808b4db9da5a79d0045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_NORM.jpg using Guid(bf72cd754de808b4db9da5a79d0045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce446b5fb6515067705848abde1c258b') in 0.067597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Textures/Granite_002_COLOR_OCC.jpg
+  artifactKey: Guid(fbdeb9fdbb3b0184799ae0ca28efc3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_OCC.jpg using Guid(fbdeb9fdbb3b0184799ae0ca28efc3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30490e1572edf98c27191b777318ac34') in 0.033607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.524747 seconds.
+  path: Assets/Textures/Crystal_001_NORM.jpg
+  artifactKey: Guid(148210edc2e484a4fb63e5de0337f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_001_NORM.jpg using Guid(148210edc2e484a4fb63e5de0337f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb224a0d3d1eaef41f5cc34869c1b08') in 0.018127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082181 seconds.
+  path: Assets/Textures/Crystal_001_COLOR — kopia.jpg
+  artifactKey: Guid(2d83960e355ba764d9402ced03f864e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_001_COLOR — kopia.jpg using Guid(2d83960e355ba764d9402ced03f864e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20853dc6a374a1489328e1b6933b179d') in 0.015581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Textures/Crystal_001_SPEC.jpg
+  artifactKey: Guid(ade461ce6fd72924b8431bd0b8f97159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_001_SPEC.jpg using Guid(ade461ce6fd72924b8431bd0b8f97159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef32202289148e0e81f3933f16620cae') in 0.043817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Textures/Crystal_003_COLOR.jpg
+  artifactKey: Guid(f33dd753a8ffa17438f700ce5c1b4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Crystal_003_COLOR.jpg using Guid(f33dd753a8ffa17438f700ce5c1b4b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6ff34980b646f0ce0cac34fd70adfa') in 0.016692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.129710 seconds.
+  path: Assets/Textures/Cliff_Rock_002_ambientOcclusion.jpg
+  artifactKey: Guid(1ba7b943225c62c4ab38d9e066922e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_ambientOcclusion.jpg using Guid(1ba7b943225c62c4ab38d9e066922e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3675347f575c971d24f6276043db1a3c') in 0.015590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Cliff_Rock_002_normal.jpg
+  artifactKey: Guid(fe479af60dc2f6a4fb41b6e00c8ec9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cliff_Rock_002_normal.jpg using Guid(fe479af60dc2f6a4fb41b6e00c8ec9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c27c146b10198f7920869b0829ead4') in 0.020531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.417149 seconds.
+  path: Assets/Textures/Granite_002_COLOR_COLOR.jpg
+  artifactKey: Guid(4e9a9e3a293ba2e4ebe57084a00b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_COLOR.jpg using Guid(4e9a9e3a293ba2e4ebe57084a00b6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f624bc196673e8b7706210f860acb78') in 0.022073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Textures/Granite_002_COLOR_NORM.jpg
+  artifactKey: Guid(bf72cd754de808b4db9da5a79d0045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_NORM.jpg using Guid(bf72cd754de808b4db9da5a79d0045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497aac7df03feb01ca986bd1b81169bb') in 0.074130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Textures/Granite_002_COLOR_OCC.jpg
+  artifactKey: Guid(fbdeb9fdbb3b0184799ae0ca28efc3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Granite_002_COLOR_OCC.jpg using Guid(fbdeb9fdbb3b0184799ae0ca28efc3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca287dbd58aa63eda9f70b05903372') in 0.025976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.633961 seconds.
+  path: Assets/Textures/Stone_Column_001_normal.jpg
+  artifactKey: Guid(9f440efeb4b914d439171243fe85e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Stone_Column_001_normal.jpg using Guid(9f440efeb4b914d439171243fe85e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb4a6d11e2df722b6db38741689f9c') in 0.019944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.627449 seconds.
+  path: Assets/Textures/Torch_Fire.tga
+  artifactKey: Guid(fef6b65fb93853d4e80fea726079a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Torch_Fire.tga using Guid(fef6b65fb93853d4e80fea726079a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639ce2d56b7577c9c98449d075836d40') in 0.011441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.003315 seconds.
+  path: Assets/Textures/webtex-nm.tga
+  artifactKey: Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/webtex-nm.tga using Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec61ffa94c5377b732c42e3f9e07eb1') in 0.015801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.457728 seconds.
+  path: Assets/Textures/webtex-nm.tga
+  artifactKey: Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/webtex-nm.tga using Guid(fa0ecc7d459767b49858e41d16d40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc66f7ccb58f75ee81e2aef01e1f3ab') in 0.014207 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2389ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1895ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6660.
+Memory consumption went from 268.4 MB to 260.3 MB.
+Total: 15.175200 ms (FindLiveObjects: 1.316300 ms CreateObjectMapping: 0.657100 ms MarkObjects: 5.250300 ms  DeleteObjects: 7.948500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009730 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2522ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2114ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (918ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (88ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6663.
+Memory consumption went from 268.4 MB to 260.3 MB.
+Total: 23.207700 ms (FindLiveObjects: 0.922000 ms CreateObjectMapping: 1.414200 ms MarkObjects: 11.871100 ms  DeleteObjects: 8.996500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012088 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2385ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1991ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (892ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (636ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6666.
+Memory consumption went from 268.4 MB to 260.3 MB.
+Total: 53.720500 ms (FindLiveObjects: 1.175500 ms CreateObjectMapping: 1.517500 ms MarkObjects: 43.136400 ms  DeleteObjects: 7.888200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1574.948746 seconds.
+  path: Assets/ImportedPlayer/Hero.prefab
+  artifactKey: Guid(e2605d69fa465d642b435b87e013071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPlayer/Hero.prefab using Guid(e2605d69fa465d642b435b87e013071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+ -> (artifact id: '00697c750b7f4df1ee0b62def14b9799') in 30.871765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.612637 seconds.
+  path: Assets/ImportedPlayer/Hero.prefab
+  artifactKey: Guid(e2605d69fa465d642b435b87e013071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedPlayer/Hero.prefab using Guid(e2605d69fa465d642b435b87e013071f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9e42e20f7fafce2d2d25cc5a4d8742') in 1.133070 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6498ms)
+		BeginReloadAssembly (1086ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (241ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (4615ms)
+			LoadAssemblies (670ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1448ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (283ms)
+			SetupLoadedEditorAssemblies (1791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (429ms)
+				ProcessInitializeOnLoadAttributes (1160ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (167ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5846 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6775.
+Memory consumption went from 282.2 MB to 274.2 MB.
+Total: 19.574100 ms (FindLiveObjects: 0.986200 ms CreateObjectMapping: 0.647300 ms MarkObjects: 9.274800 ms  DeleteObjects: 8.662200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042257 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11100ms)
+		BeginReloadAssembly (901ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (199ms)
+		EndReloadAssembly (9521ms)
+			LoadAssemblies (632ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2304ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (894ms)
+			SetupLoadedEditorAssemblies (3800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (106ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (745ms)
+				ProcessInitializeOnLoadAttributes (2579ms)
+				ProcessInitializeOnLoadMethodAttributes (289ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (352ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5847 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6778.
+Memory consumption went from 282.1 MB to 274.1 MB.
+Total: 29.304000 ms (FindLiveObjects: 2.009600 ms CreateObjectMapping: 1.024400 ms MarkObjects: 12.837500 ms  DeleteObjects: 13.422100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dawid\Documents\Unity Projects\TheGrimRift\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8911ms)
+		BeginReloadAssembly (772ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (199ms)
+		EndReloadAssembly (7339ms)
+			LoadAssemblies (528ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2198ms)
+			ReleaseScriptCaches (17ms)
+			RebuildScriptCaches (531ms)
+			SetupLoadedEditorAssemblies (2786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (114ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (783ms)
+				ProcessInitializeOnLoadAttributes (1647ms)
+				ProcessInitializeOnLoadMethodAttributes (191ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (205ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5847 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (8.0 MB). Loaded Objects now: 6781.
+Memory consumption went from 282.1 MB to 274.1 MB.
+Total: 49.520200 ms (FindLiveObjects: 1.687700 ms CreateObjectMapping: 1.589400 ms MarkObjects: 19.669700 ms  DeleteObjects: 26.568600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
