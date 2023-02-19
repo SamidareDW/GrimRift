@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,14 +7,14 @@ public class MyPlayerController : MonoBehaviour
 {
     public bool cursorVisible = true;
     public bool cursorLock = false;
-    
+
     public bool blockActions = false;
 
     Rigidbody playerRigidbody;
     Camera playerCamera;
 
     bool isRunning = false;
-    
+
     public float speed;
     public float speedBoost;
     Vector3 playerVelocity;
@@ -23,7 +22,7 @@ public class MyPlayerController : MonoBehaviour
     public bool canMine = false;
 
     public Slider StaminaSlider;
-    
+
     private float stamina = 7;
     private float maxstamina = 7;
 
@@ -31,27 +30,27 @@ public class MyPlayerController : MonoBehaviour
     public float cameraMaxXAngle = 60;
     public float cameraMinXAngle = -60;
     [SerializeField] float time = 10;
-    
+
     [SerializeField] GameObject dethCanvas;
-    
-        private bool _isDead = false;
-        public bool isDead 
+
+    private bool _isDead = false;
+    public bool isDead
+    {
+        get { return _isDead; }
+        set
         {
-            get { return _isDead; }
-            set
-            {
-                if (_isDead != value)
-                    _isDead = value;
-                dethCanvas.SetActive(true);
-            }
+            if (_isDead != value)
+                _isDead = value;
+            dethCanvas.SetActive(true);
         }
+    }
 
     //public bool isDead = false;
 
     private void Start()
     {
         Cursor.visible = cursorVisible;
-        if(cursorLock)
+        if (cursorLock)
             Cursor.lockState = CursorLockMode.Locked;
 
         if (speed <= 1)
@@ -65,11 +64,11 @@ public class MyPlayerController : MonoBehaviour
         cameraXRotation = playerCamera.transform.localRotation.eulerAngles.x;
     }
 
-    
+
 
     void MovingXZ()
     {
-        playerVelocity = new Vector3(0,playerRigidbody.velocity.y,0);
+        playerVelocity = new Vector3(0, playerRigidbody.velocity.y, 0);
         /*if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed *= speedBoost;
@@ -79,43 +78,43 @@ public class MyPlayerController : MonoBehaviour
                 playerVelocity += transform.forward * speed;
             }
         }*/
-        
+
         /*if (stamina < maxstamina)
         {
             stamina += Time.deltaTime;
         }*/
-        
-        
+
+
         if (Input.GetKey(KeyCode.W))
         {
-            
-           /* if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
+
+            /* if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
+             {
+                 isRunning = true;
+                 GetComponent<Animator>().SetBool("isRunning", true);
+                 speed *= speedBoost;
+                 playerVelocity += transform.forward * speed;
+             }
+             else
+             {
+                 isRunning = false;
+                 GetComponent<Animator>().SetBool("isWalking", true);
+                 playerVelocity += transform.forward * speed;
+             }
+              */
+
+            if (isRunning)
             {
-                isRunning = true;
                 GetComponent<Animator>().SetBool("isRunning", true);
-                speed *= speedBoost;
+                speed = 4;
                 playerVelocity += transform.forward * speed;
             }
+
             else
             {
-                isRunning = false;
                 GetComponent<Animator>().SetBool("isWalking", true);
                 playerVelocity += transform.forward * speed;
             }
-             */
-
-           if (isRunning)
-           {
-               GetComponent<Animator>().SetBool("isRunning", true);
-               speed = 4;
-               playerVelocity += transform.forward * speed;
-           }
-
-           else
-           {
-               GetComponent<Animator>().SetBool("isWalking", true);
-               playerVelocity += transform.forward * speed;
-           }
 
             if (Input.GetKey(KeyCode.D))
             {
@@ -126,7 +125,6 @@ public class MyPlayerController : MonoBehaviour
                 playerVelocity -= transform.right;
             }
         }
-
 
         else if (Input.GetKey(KeyCode.S))
         {
@@ -134,7 +132,7 @@ public class MyPlayerController : MonoBehaviour
             speed = 1;
             GetComponent<Animator>().SetBool("isBacking", true);
             playerVelocity += (transform.forward * -1) * speed;
-            
+
             if (Input.GetKey(KeyCode.D))
             {
                 playerVelocity += transform.right;
@@ -144,6 +142,20 @@ public class MyPlayerController : MonoBehaviour
                 playerVelocity -= transform.right;
             }
         }
+
+        else if (Input.GetKey(KeyCode.D))
+        {
+            GetComponent<Animator>().SetBool("isWalking", true);
+            playerVelocity += transform.right;
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            GetComponent<Animator>().SetBool("isWalking", true);
+            playerVelocity -= transform.right;
+        }
+
+
+        
         /*else if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Animator>().SetBool("isRunning", false);
@@ -158,33 +170,33 @@ public class MyPlayerController : MonoBehaviour
             playerVelocity -= transform.right * speed;
             GetComponent<Animator>().SetBool("isWalking", true);
         }*/
-        
+
 
         else
         {
-            GetComponent<Animator>().SetBool("isWalking",false);
-            GetComponent<Animator>().SetBool("isBacking",false);
+            GetComponent<Animator>().SetBool("isWalking", false);
+            GetComponent<Animator>().SetBool("isBacking", false);
             GetComponent<Animator>().SetBool("isRunning", false);
             GetComponent<Animator>().SetBool("isMining", false);
             GetComponent<Animator>().SetBool("isPicking", false);
         }
-        
+
         playerRigidbody.velocity = playerVelocity;
-        
-        
+
+
         if (Input.GetKey(KeyCode.M))
             canMine = true;
-        
-        
+
+
         if (Input.GetKey(KeyCode.P))
         {
             GetComponent<Animator>().SetBool("isPicking", true);
             playerVelocity += transform.forward * speed;
         }
-        
-       // if(playerRigidbody.velocity != Vector3.zero && playerRigidbody.velocity.y == 0)
+
+        // if(playerRigidbody.velocity != Vector3.zero && playerRigidbody.velocity.y == 0)
         //    SoundManager.current.PlaySound(SoundManager.Sound.FootStep, transform.position);
-        
+
     }
 
     void Rotating()
@@ -200,12 +212,12 @@ public class MyPlayerController : MonoBehaviour
     {
         SoundManager.current.PlaySound(SoundManager.Sound.Footstep);
     }
-    
+
     public void MiningSound()
     {
         SoundManager.current.PlaySound(SoundManager.Sound.Mining);
     }
-    
+
     private void Update()
     {
 
@@ -229,7 +241,7 @@ public class MyPlayerController : MonoBehaviour
             if (canMine)
                 Mining();
 
-            
+
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKey(KeyCode.W))
                 isRunning = true;
@@ -241,7 +253,7 @@ public class MyPlayerController : MonoBehaviour
                 isRunning = false;
             }
 
-           /* if (isRunning)
+            if (isRunning)
             {
                 stamina -= Time.deltaTime;
                 if (stamina < 0)
@@ -254,17 +266,16 @@ public class MyPlayerController : MonoBehaviour
             }
             else if (stamina < maxstamina)
                 stamina += Time.deltaTime;
-           */
         }
 
 
     }
-    
+
     void Mining()
     {
         blockActions = true;
-        GetComponent<Animator>().SetBool("isWalking",false);
-        GetComponent<Animator>().SetBool("isBacking",false);
+        GetComponent<Animator>().SetBool("isWalking", false);
+        GetComponent<Animator>().SetBool("isBacking", false);
         GetComponent<Animator>().SetBool("isRunning", false);
         GetComponent<Animator>().SetBool("isPicking", false);
         GetComponent<Animator>().SetBool("isMining", true);
@@ -272,7 +283,7 @@ public class MyPlayerController : MonoBehaviour
 
         time -= Time.deltaTime;
         Debug.Log(time);
-        if(time < 0)
+        if (time < 0)
         {
             canMine = false;
             GetComponent<Animator>().SetBool("isMining", false);

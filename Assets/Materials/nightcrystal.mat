@@ -100,7 +100,7 @@ Material:
     - Vector1_800C0A23: 1
     - Vector1_8FDC7A6E: 0.5
     - Vector1_90E1B224: 0
-    - Vector1_97783216: 9.39
+    - Vector1_97783216: 1.22
     - Vector1_FD9B16DB: 2
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
@@ -170,7 +170,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_609FA73B: {r: 0.0001394913, g: 0, b: 0.0028735348, a: 0}
+    - Color_609FA73B: {r: 0.03529412, g: 0, b: 0.04117647, a: 0}
     - Vector2_888A61F3: {r: 0.3, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
